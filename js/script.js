@@ -16,7 +16,7 @@ const winConditions = [
 let choices = ["", "", "", "", "", "", "", "", ""]
 let currentPlayer = "X"
 let running = false
-let count = 0
+// let count = 0
 
 
 resetBtn.addEventListener("click", (evt) => {
@@ -37,10 +37,10 @@ function startGame() {
 }
 
 function boxClicked() {
-    if(count == 8) {
-        alert("This game will end in a draw")
-    }
-    count++
+    // if(count == 8) {
+    //     alert("This game will end in a draw")
+    // }
+    // count++
     const boxIndex = this.getAttribute("boxIndex")
 
     if (choices[boxIndex] != "" || !running) {
@@ -59,7 +59,7 @@ function updateBox(box, index) {
 }
 
 function switchPlayer() {
-    console.log(count)
+    // console.log(count)
     if (currentPlayer == "X") {
         currentPlayer = "O"
     } else {
@@ -105,4 +105,6 @@ function checkWinner() {
 function resetGame() {
     choices = ["", "", "", "", "", "", "", "", ""]
     boxes.forEach(box => box.textContent = "")
+    // currentPlayer = "X"
+    // this makes sure whenever the game restarts it will always be X's turn
 }
