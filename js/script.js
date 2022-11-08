@@ -37,6 +37,7 @@ function startGame() {
 }
 
 function boxClicked() {
+    // let count = 0
     // if(count == 8) {
     //     alert("This game will end in a draw")
     // }
@@ -79,24 +80,25 @@ function checkWinner() {
 
         if (boxA == "" || boxB == "" || boxC == "") {
             continue;
+            // terminates iteration of the loop
         }
         if (boxA == boxB && boxB == boxC) {
             roundWon = true
         }
     }
     if (roundWon) {
-        console.log("won")
+        // console.log("won")
         statusText.textContent = `${currentPlayer} wins!`
         running = false
         // count++
     }
     else if (!choices.includes("")) {
-        console.log("draw")
+        // console.log("draw")
         // count++
         statusText.textContent = `Draw!`
         running = false
     } else {
-        console.log("loss")
+        // console.log("loss")
         switchPlayer()
         // count++
     }

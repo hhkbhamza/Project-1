@@ -3,13 +3,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: black;
     -webkit-text-fill-color: aqua;
+    background-image: url("./images/d8un0f2-0bbc2229-4839-4936-86cf-b8652493c960.jpg");
 }
-/* 
-h2, h1 {
+
+
+h2, h1, #reset-button {
     margin: 0 auto;
     font-size: 40px;
     margin: 10px;
-} */
+}
 
 
 .box {
@@ -39,23 +41,27 @@ h2, h1 {
     width: 15%;
     height: 10%;
     font-size: 25px;
-    border: 2px solid aqua;
-    background-color: black;
+    border: 2px solid white;
+    background-color: rgba(0, 0, 0, 0);
     -webkit-text-fill-color: aqua;
     cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .box:first-child,
 .box:nth-child(2),
 .box:nth-child(3) {
     border-top: none;
-} 
+}
 
 .box:nth-child(3n+1) {
     border-left: none;
 }
- .box:nth-child(3n+3) {
+
+.box:nth-child(3n+3) {
     border-right: none;
 }
+
 .box:last-child,
 .box:nth-child(7),
 .box:nth-child(8) {
