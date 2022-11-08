@@ -105,6 +105,6 @@ function checkWinner() {
 function resetGame() {
     choices = ["", "", "", "", "", "", "", "", ""]
     boxes.forEach(box => box.textContent = "")
-    // currentPlayer = "X"
+    currentPlayer = "X"
     // this makes sure whenever the game restarts it will always be X's turn
 }
