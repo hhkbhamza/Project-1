@@ -13,3 +13,7 @@ https://dev.to/bornasepic/pure-and-simple-tic-tac-toe-with-javascript-4pgn
 https://javascript.plainenglish.io/the-worlds-most-empowering-tic-tac-toe-javascript-tutorial-a889e4c20883 
 https://www.youtube.com/watch?v=fPew9OI2PnA 
 https://www.youtube.com/watch?v=AnmwHjpEhtA
+
+
+
+Github Pages: https://hhkbhamza.github.io/Project-1/
